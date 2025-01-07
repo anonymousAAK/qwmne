@@ -23,7 +23,7 @@ const Services = () => {
             <>
               Generative AI made for{" "}
               <span className="inline-block relative font-semibold">
-                innovators
+                Innovators
                 <img
                   src={curve}
                   className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -91,9 +91,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo Enhancement</h4>
+                <h4 className="h4 mb-4">Photo Generation</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance and perfect your photos with cutting-edge AI tools.
+                  Automatically create,enhance and perfect your photos with cutting-edge AI tools.
                 </p>
               </div>
 

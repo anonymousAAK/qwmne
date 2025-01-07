@@ -30,11 +30,11 @@ export const PhotoChatMessage = () => {
       <Typewriter
         options={{
           strings: [
-            "Hey Brainwave, enhance this photo.",
-            "Hey Brainwave, give this photo a boost.",
-            "Brainwave, enhance the details in this photo.",
-            "Activate Brainwave mode to refine this photo.",
-            "Brainwave, apply your magic to this photo.",
+            "Hey Cosminder, enhance this photo.",
+            "Hey Cosminder, give this photo a boost.",
+            "Cosminder, enhance the details in this photo.",
+            "Activate Cosminder mode to refine this photo.",
+            "Cosminder, apply your magic to this photo.",
           ],
           autoStart: true,
           loop: true,
@@ -62,7 +62,7 @@ export const VideoChatMessage = ({ isPlaying }) => {
           src={brainwaveWhiteSymbol}
           width={26}
           height={26}
-          alt="Brainwave"
+          alt="Cosminder"
         />
       </div>
       <div className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
