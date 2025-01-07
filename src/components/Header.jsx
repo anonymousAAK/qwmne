@@ -42,7 +42,7 @@ const Header = () => {
             src={brainwave}
             width={190}
             height={40}
-            alt="Brainwave"
+            alt="Cosminder"
             className="pointer-events-none select-none"
           />
         </a>

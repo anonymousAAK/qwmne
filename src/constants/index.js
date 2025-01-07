@@ -50,8 +50,8 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "How it Works",
+    url: "#how-it-works",
   },
   {
     id: "3",
@@ -60,8 +60,8 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "Source Code",
-    url: links.sourceCode,
+    title: "API Access",
+    url: links.apiDocs,
     onlyMobile: true,
     external: true,
   },
@@ -74,71 +74,71 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Custom Model Creation",
+  "Data-driven Insights",
+  "Personalized Interactions",
 ];
 
 export const brainwaveServicesIcons = [
   recording03,
   recording01,
-  disc02,
-  chromecast,
   sliders04,
+  chromecast,
+  disc02,
 ];
 
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Custom Model Builder",
+    text: "Allow users to create their own models using intuitive interfaces and tailored datasets.",
+    date: "June 2023",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "API Integration",
+    text: "Enable external systems to access and interact with the custom AI models.",
+    date: "July 2023",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "User Profile Personalization",
+    text: "Enhance Impersona’s ability to adapt based on user behaviors and preferences.",
+    date: "August 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Gamified Interaction",
+    text: "Introduce gamification elements to keep users engaged while building their custom models.",
+    date: "September 2023",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Empowering teams with AI-driven customization, seamless integration, and robust security for smarter collaboration.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Custom Model Collaboration",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Intuitive AI Tools",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Enhanced Security Features",
   },
 ];
 
@@ -204,55 +204,57 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Starter",
+    description: "Get started with basic model creation features.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Basic model creation with limited features",
+      "AI-generated insights",
+      "Community support",
     ],
     premium: false,
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Professional",
+    description: "Unlock advanced features and API access.",
+    price: "14.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Advanced model customization",
+      "Priority API access",
+      "Comprehensive analytics dashboard",
+      "Priority customer support",
     ],
     premium: true,
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    description: "Custom solutions for large-scale operations.",
+    price: "Contact us",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom AI solutions tailored to business needs",
+      "Dedicated account manager",
+      "24/7 enterprise-grade support",
+      "Full API customization",
     ],
-    premium: false,
+    premium: true,
   },
 ];
 
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Custom AI Models",
+    text: "Empower users to create AI models tailored to their specific needs.",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Personalized Insights",
+    text: "Deliver actionable insights using AI-driven personalization.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -260,36 +262,20 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Seamless API Integration",
+    text: "Easily integrate Impersona’s capabilities into your systems.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Real-time Interactions",
+    text: "Leverage AI to provide instant and accurate responses.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "/src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "/src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
   },
 ];
 
