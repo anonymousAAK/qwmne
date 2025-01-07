@@ -25,16 +25,16 @@ const Hero = () => {
       <div ref={parallaxRef} className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of
+            Empower Your Vision with
             <br />
             <Typewriter
               options={{
                 strings: [
-                  "AI Chatting",
-                  "Photo Editing",
-                  "Video Generation",
+                  "Custom AI Models",
+                  "Data Insights",
                   "Image Generation",
-                  "Code Generation",
+                  "API Integrations",
+                  "Personalized Solutions",
                 ],
                 autoStart: true,
                 loop: true,
@@ -43,10 +43,9 @@ const Hero = () => {
           </h1>
 
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleast the power of AI within Brainwave. Upgrade your productivity
-            with{" "}
+            Unlock the future of AI with{" "}
             <span className="inline-block relative font-semibold">
-              Brainwave
+              Cosminder
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -55,7 +54,7 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-            , the open AI chat app.
+            , the ultimate platform for building tailored AI solutions.
           </p>
 
           <Button href="#pricing" white>
@@ -83,7 +82,7 @@ const Hero = () => {
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
+                        <img src={icon} width={24} height={25} alt={`Icon ${index + 1}`} />
                       </li>
                     ))}
                   </ul>
@@ -92,7 +91,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Custom AI Models"
                   />
                 </ScrollParallax>
               </div>
@@ -107,7 +106,7 @@ const Hero = () => {
               className="w-full pointer-events-none select-none"
               width={1440}
               height={1800}
-              alt="Hero"
+              alt="Hero Background"
             />
           </div>
 
