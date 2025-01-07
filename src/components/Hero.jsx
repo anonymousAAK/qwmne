@@ -54,7 +54,7 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-            , the ultimate platform for building tailored AI solutions.
+            , the ultimate way for building tailored AI solutions.
           </p>
 
           <Button href="#pricing" white>

@@ -126,22 +126,24 @@ export const roadmap = [
 export const collabText =
   "Empowering teams with AI-driven customization, seamless integration, and robust security for smarter collaboration.";
 
-export const collabContent = [
-  {
-    id: "0",
-    title: "Custom Model Collaboration",
-    text: collabText,
-  },
-  {
-    id: "1",
-    title: "Intuitive AI Tools",
-  },
-  {
-    id: "2",
-    title: "Enhanced Security Features",
-  },
-];
-
+  export const collabContent = [
+    {
+      id: "0",
+      title: "Custom Model Collaboration",
+      text: "Work seamlessly with your team to build and deploy custom AI models tailored to your business needs.",
+    },
+    {
+      id: "1",
+      title: "Intuitive AI Tools",
+      text: "Access user-friendly tools that simplify the creation and deployment of AI-driven solutions.",
+    },
+    {
+      id: "2",
+      title: "Enhanced Security Features",
+      text: "Ensure the safety of your data with state-of-the-art security measures and compliance protocols.",
+    },
+  ];
+  
 export const collabApps = [
   {
     id: "0",
@@ -246,7 +248,7 @@ export const benefits = [
   {
     id: "0",
     title: "Custom AI Models",
-    text: "Empower users to create AI models tailored to their specific needs.",
+    text: "Create AI models designed specifically for your unique challenges and objectives.",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -254,7 +256,7 @@ export const benefits = [
   {
     id: "1",
     title: "Personalized Insights",
-    text: "Deliver actionable insights using AI-driven personalization.",
+    text: "Gain deep, actionable insights through AI-powered analysis and customization.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -263,7 +265,7 @@ export const benefits = [
   {
     id: "2",
     title: "Seamless API Integration",
-    text: "Easily integrate Impersona’s capabilities into your systems.",
+    text: "Integrate Cosminder’s AI solutions into your existing systems effortlessly.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -271,13 +273,14 @@ export const benefits = [
   {
     id: "3",
     title: "Real-time Interactions",
-    text: "Leverage AI to provide instant and accurate responses.",
+    text: "Harness AI to deliver accurate, real-time solutions and support.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
 ];
+
 
 export const socials = [
   {

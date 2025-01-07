@@ -10,9 +10,9 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seemless
+            AI Solutions for Seamless
             <span className="inline-block relative font-semibold">
-              collaboration
+              Integration
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -44,12 +44,12 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button>Discover More</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mb-32 lg:w-[32rem] lg:mx-auto">
-            {collabText}
+            Empower your business with Cosminder’s AI-driven solutions, offering seamless customization, secure integration, and advanced collaboration tools.
           </p>
 
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-75 md:scale-100">
@@ -60,7 +60,7 @@ const Collaboration = () => {
                     src={brainwaveSymbol}
                     width={48}
                     height={48}
-                    alt="brainwave"
+                    alt="Cosminder Symbol"
                   />
                 </div>
               </div>

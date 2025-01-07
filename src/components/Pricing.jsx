@@ -29,8 +29,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with Cosminder"
+          title="Custom solutions tailored to your needs"
         />
 
         <div className="relative">
@@ -44,7 +44,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="#"
           >
-            See the full details
+            Contact us for details
           </a>
         </div>
       </div>
