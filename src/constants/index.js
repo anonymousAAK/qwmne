@@ -233,7 +233,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Custom solutions for large-scale operations contact adarsh@cosminder.com.",
-    price: "Custom",
+    price: "Email Us",
     features: [
       "Custom AI solutions tailored to business needs",
       "Dedicated account manager",
