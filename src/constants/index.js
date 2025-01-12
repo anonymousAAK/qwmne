@@ -33,6 +33,10 @@ import {
   sliders04,
   telegram,
   twitter,
+  kbh,
+  dtl,
+  hmm,
+  cwt,
   yourlogo,
 } from "../assets";
 import { links } from "../config";
@@ -71,7 +75,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [kbh, dtl, hmm, cwt, yourlogo];
 
 export const brainwaveServices = [
   "Custom Model Creation",
